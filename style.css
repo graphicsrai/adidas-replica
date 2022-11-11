@@ -1,0 +1,178 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.navdiv{
+    
+}
+.uppernav{
+    height: 30px;
+    width: 100%;
+    background-color: #000;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    
+}
+.upperlist{
+    margin-left: auto;
+}
+.uppernav ul li{
+    list-style: none;
+    display: inline;
+    margin-right: 250px;
+    cursor: pointer;
+    
+}
+.lowernav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 50px;
+    height: 80px;
+}
+.lowernav .logo img{
+    width: 70px;
+}
+.lowernav ul li{
+    list-style: none;
+    display: inline;
+    margin-right: 20px;
+    cursor: pointer;
+}
+.bold{
+    font-weight: bolder;
+}
+.red{
+    color: red;
+}
+.searchbox{
+    height: 30px;
+    background-color: aquamarine;
+    position: relative;
+    border: 1px solid gray;
+}
+.searchbox .searchIcon{
+    /* background-color: blue; */
+    width: 25px;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 0;
+    right: 0;
+    
+}
+.searchbox input{
+    height: 30px;
+    background-color: azure;
+    border-style: none;
+}
+.searchbox i{
+    font-size: 20px;
+}
+.Icons{
+    display: flex;
+    justify-content: space-between;
+    width: 10%;
+    margin-left: -130px;
+    position: relative;
+}
+.Icons i{
+    font-size: 20px;
+}
+.notify{
+    background-color: yellow;
+    height: 20px;
+    width: 20px;
+    display: flex;
+    justify-content: center;
+    align-items:flex-end;
+    color: #000;
+    border-radius: 50%;
+    position: absolute;
+    top: -18px;
+    left: 8px;
+}
+
+
+
+
+
+.hero{
+    height: 550px;
+    width: 100%;
+    background-image: url(./img/bg.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+.heroLeft{
+    position: absolute;
+    left: 60px;
+    top: 200px;
+    color: #fff;
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+}
+.heroLeft h1{
+    font-size: 40px;
+}
+.heroLeft p{
+    font-size: 18px;
+}
+.heroLeft .heroBtn1{
+    border:1px solid #000;
+    width: 140px;
+    height: 50px;
+    margin: 10px 0;
+    position: relative;
+}
+.heroLeft .heroBtn1 button{
+    position: absolute;
+    top: -5px;
+    left: -5px;
+    transition: 200ms;
+}
+.heroBtn1 button:active{
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.heroLeft button{
+    /* /margin-top: 20px; */
+    width: 140px;
+    height: 50px;
+    background-color: #000;
+    color: #fff;
+    /* outline: 1px solid black;
+  outline-offset: 2px; */
+}
+
+.heroLeft .heroBtn2{
+    width: 160px;
+    height: 50px;
+    border: 1px solid black;
+    position: relative;
+}
+.heroLeft .heroBtn2 button{
+    width: 160px;
+    position: absolute;
+    top: -5px;
+    left: -5px;
+    transition: 200ms;
+}
+.heroBtn2 button:active{
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.heroLeft button:hover{
+    color: rgb(79, 79, 107);
+}
